@@ -1,0 +1,36 @@
+{
+	"name": "neisanbynum-styles",
+	"version": "1.0.0",
+	"description": "A TailwindCSS base style and utility system for neisanbynum projects.",
+	"main": "./dist/styles.css",
+	"scripts": {
+		"build": "powershell -ExecutionPolicy Bypass -File ./build.ps1",
+		"dev": "powershell -ExecutionPolicy Bypass -File ./watch.ps1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/neisanbynum/neisanbynum-styles.git"
+	},
+	"keywords": [
+		"tailwindcss",
+		"vite",
+		"css",
+		"utilities",
+		"design-system",
+		"neisanbynum"
+	],
+	"author": "Neisan Bynum",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/neisanbynum/neisanbynum-styles/issues"
+	},
+	"homepage": "https://github.com/neisanbynum/neisanbynum-styles#readme",
+	"dependencies": {
+		"@sglara/cn": "^1.0.0",
+		"@tailwindcss/vite": "^4.1.3",
+		"tailwindcss": "^4.1.4"
+	},
+	"devDependencies": {
+		"tailwindcss-cli": "^0.1.2"
+	}
+}
