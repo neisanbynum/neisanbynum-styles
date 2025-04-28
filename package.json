@@ -1,6 +1,6 @@
 {
 	"name": "neisanbynum-styles",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A TailwindCSS base style and utility system for neisanbynum projects.",
 	"main": "./dist/styles.css",
 	"scripts": {
